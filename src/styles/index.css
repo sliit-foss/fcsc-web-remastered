@@ -1,0 +1,25 @@
+@import 'colors.css';
+@import 'animations/index.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.cdnfonts.com/css/satoshi');
+
+html {
+  scroll-behavior: smooth;
+}
+
+svg,
+svg *:focus {
+  outline: none !important;
+}
+
+input,
+textarea,
+button,
+select,
+a {
+    -webkit-tap-highlight-color: transparent;
+}
